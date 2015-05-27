@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color android:id="@+id/color1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="background">#68AD9E</color>
+    <color android:id="@+id/color1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="create_event">#07313A</color>
+    <color android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/color1" name="edit_event">#07313A</color>
+    <color android:id="@+id/color1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="delete_event">#07313A</color>
+    
+</resources>

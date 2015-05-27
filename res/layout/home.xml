@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81dedc" >
+
+    <Button
+        android:id="@+id/viewevents"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/manage"
+        android:layout_alignBottom="@+id/manage"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="#81dedc"
+        android:text="View Events" />
+
+    <Button
+        android:id="@+id/manage"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#81dedc"
+        android:text="Manage Events" />
+
+     <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:showWeekNumber="false"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"
+        android:maxDate="12/31/2020"
+        android:minDate="1/1/2015"
+        android:firstDayOfWeek="1"
+        android:shownWeekCount="5"/>
+
+</RelativeLayout>

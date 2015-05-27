@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	
+	    <Button
+	        android:id="@+id/add_more"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:textColor="@color/text_color"
+	        android:text="+" />
+	
+	    <EditText
+	        android:id="@+id/file"
+	        android:layout_width="300dp"
+	    	android:layout_height="50dp"
+	        android:layout_toLeftOf="@id/add_more"
+	        android:layout_alignTop="@id/add_more"
+	        android:textColor="@color/text_color"
+	        android:hint="Add file"/>
+	    
+	    <Button
+	        android:id="@+id/add_more1"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/add_more"
+	        android:textColor="@color/text_color"
+	        android:text="+" />
+	    
+	    <EditText
+	        android:id="@+id/file1"
+	        android:layout_width="300dp"
+	    	android:layout_height="50dp"
+	    	android:layout_alignTop="@id/add_more1"
+	        android:layout_below="@id/file"
+	        android:textColor="@color/text_color"
+	        android:hint="Add file"/>
+	    
+	    <Button
+	        android:id="@+id/add_more2"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/add_more1"
+	        android:textColor="@color/text_color"
+	        android:text="+" />
+	    
+	    <EditText
+	        android:id="@+id/file2"
+	        android:layout_width="300dp"
+	    	android:layout_height="50dp"
+	    	android:layout_alignTop="@id/add_more2"
+	        android:layout_below="@id/file1"
+	        android:textColor="@color/text_color"
+	        android:hint="Add file"/>
+	    
+		
+	</RelativeLayout>
+	
+	<Button
+		android:id="@+id/btn_close_popup"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_gravity="bottom"
+		android:textColor="@color/text_color"
+		android:text="Done" />
+	
+</LinearLayout>

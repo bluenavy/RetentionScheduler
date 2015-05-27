@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:padding="10sp">
+    
+    <EditText
+        android:id="@+id/event123"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:textColor="#000000"
+	    android:hint="@string/event_name"/>
+
+    <EditText
+       	android:id="@+id/desc123"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_below="@+id/event123"
+        android:textColor="#000000"
+	    android:hint="@string/hint_desc"/>
+    
+    <TimePicker
+        android:id="@+id/tp1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/desc123"
+        android:layout_marginBottom="10dp" />
+    
+    <Button
+		android:id="@+id/save"
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:layout_gravity="bottom"
+		android:layout_below="@+id/tp1"
+		android:background="#FF4000"
+		android:text="Save" />
+    
+
+</RelativeLayout>
